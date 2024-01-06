@@ -6,10 +6,10 @@ import Skills from "@/app/ui/sections/Skills"
 export default function HomePage() {
   return (
     <main>
-      <Hero />
-      <About />
+      {/* <Hero /> */}
+      {/* <About />
       <Works />
-      <Skills />
+      <Skills /> */}
     </main>
   )
 }
