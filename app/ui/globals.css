@@ -16,3 +16,16 @@
   }
 }
 
+@layer utilities {
+  .max-width {
+    @apply max-w-[1920px] mx-auto px-[8px] tablet:px-[40px] desktop:px-[80px];
+  }
+
+  .btn {
+    @apply flex items-center justify-center gap-2 rounded px-4 py-2 capitalize text-grey-700;
+  }
+
+  .btn-primary {
+    @apply text-white bg-blue;
+  }
+}
