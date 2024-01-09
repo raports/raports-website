@@ -1,7 +1,7 @@
-import Hero from "@/app/ui/sections/Hero"
-import About from "@/app/ui/sections/About"
-import Works from "@/app/ui/sections/Works"
-import Skills from "@/app/ui/sections/Skills"
+import Hero from "@/components/sections/Hero"
+import About from "@/components/sections/About"
+import Works from "@/components/sections/Works"
+import Skills from "@/components/sections/Skills"
 
 export default function HomePage() {
   return (
