@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 import { FaTelegramPlane } from "react-icons/fa";
 import { navLinks } from "@/constants";
 import NavbarLink from "@/components/NavbarLink";
+import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -18,7 +19,7 @@ export default function Navbar() {
         <Image src="/logo.svg" alt="logo" width={120} height={40} />
       </Link>
 
-      <nav className="flex items-center justify-between p-5 lg:px-8">
+      <nav className="flex items-center justify-between gap-12 max-tablet:hidden">
         {/* Nav links */}
         <ul className="flex items-center gap-8">
           {navLinks.map((link, index) => (
@@ -27,12 +28,14 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
+
+        <Link href="/contact" className="btn btn-primary">
+          <FaTelegramPlane />
+          Contact me
+        </Link>
       </nav>
 
-      <Link href="/contact" className="btn btn-primary">
-        <FaTelegramPlane />
-        Contact me
-      </Link>
+      <MobileMenu />
     </header>
   );
 }
