@@ -3,7 +3,9 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { HiOutlineX, HiOutlineMenu } from "react-icons/hi";
+import { BiMenu, BiX, BiLogoTelegram } from "react-icons/bi";
+import { navLinks } from "@/constants";
+import NavbarLink from "@/components/NavbarLink";
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,8 +16,11 @@ const MobileMenu = () => {
 
   return (
     <div className="tablet:hidden">
-      <button className="text-grey-700 transition-colors pt-2" onClick={toggleMenu}>
-        <HiOutlineMenu size={24}/>
+      <button
+        className="text-grey-700 transition-colors pt-2"
+        onClick={toggleMenu}
+      >
+        <BiMenu size={24} />
       </button>
 
       <div
@@ -28,9 +33,24 @@ const MobileMenu = () => {
             <Image src="/logo.svg" alt="logo" width={120} height={40} />
           </Link>
           <button className="text-grey-700 " onClick={toggleMenu}>
-            <HiOutlineX size={24} />
+            <BiX size={24} />
           </button>
         </div>
+        <nav className="flex flex-col items-center justify-center gap-5 mt-5">
+          {/* Nav links */}
+          <ul className="flex flex-col items-center">
+            {navLinks.map((link, index) => (
+              <li key={index}>
+                <NavbarLink href={link.href} label={link.label} />
+              </li>
+            ))}
+          </ul>
+
+          <Link href="/contact" className="btn btn-primary">
+            <BiLogoTelegram />
+            Contact me
+          </Link>
+        </nav>
       </div>
     </div>
   );
