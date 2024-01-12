@@ -18,7 +18,7 @@ export const socialLinks = [
     id: 2,
     label: "Linkedin",
     icon: BiLogoLinkedinSquare,
-    url: "www.linkedin.com/in/ramis-khasianov-a254aa60",
+    url: "https://linkedin.com/in/ramis-khasianov-a254aa60",
   },
   {
     id: 3,
@@ -31,11 +31,11 @@ export const contactDetails = [
   {
     id: 1,
     icon: BiLogoGmail,
-    text: "ramis.khasianov@raports.ru",
+    text: "ramis.khasianov@raports.net",
   },
   {
     id: 2,
     icon: BiLogoTelegram,
-    text: "Lahore, Pakistan",
+    text: "@raports",
   },
 ];

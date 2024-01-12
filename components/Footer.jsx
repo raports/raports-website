@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaTelegramPlane } from "react-icons/fa";
-import { navLinks, socialLinks } from "@/constants";
+import { navLinks, socialLinks, contactDetails } from "@/constants";
 import NavbarLink from "@/components/NavbarLink";
 
 const Footer = () => {
@@ -37,7 +37,16 @@ const Footer = () => {
         </div>
       </div>
 
-      
+      <div className="w-max p-5 mx-auto flex gap-5 tablet:gap-10 flex-col tablet:flex-row items-center mt-8">
+        {contactDetails.map((detail, index) => (
+          <div key={index} className="flex gap-3 items-center text-purple">
+            <detail.icon size={20} />
+            <p>{detail.text}</p>
+          </div>
+        ))}
+      </div>
+
+      <p className="mt-8 text-grey text-center text-sm">Copyright © {new Date().getFullYear()} Ramis Khasianov. All rights reserved</p>
     </footer>
   );
 };
