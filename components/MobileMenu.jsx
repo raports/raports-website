@@ -41,7 +41,7 @@ const MobileMenu = () => {
           <ul className="flex flex-col items-center">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavbarLink href={link.href} label={link.label} />
+                <NavbarLink href={link.href} label={link.label} className={"text-2xl"} />
               </li>
             ))}
           </ul>
