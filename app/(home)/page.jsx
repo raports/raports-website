@@ -6,7 +6,7 @@ import Skills from "@/components/sections/Skills"
 export default function HomePage() {
   return (
     <main>
-      {/* <Hero /> */}
+      <Hero />
       {/* <About />
       <Works />
       <Skills /> */}

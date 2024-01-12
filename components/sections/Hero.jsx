@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Hero () {
   return (
-      <section className="flex">
+      <section className="flex h-full">
         <div className="flex-auto">
           <h1>Bi developer</h1>
           <p>Hire me pls</p>

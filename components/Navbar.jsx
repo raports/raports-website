@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { FaTelegramPlane } from "react-icons/fa";
+import { BiLogoTelegram } from "react-icons/bi";
 import { navLinks } from "@/constants";
 import NavbarLink from "@/components/NavbarLink";
 import MobileMenu from "./MobileMenu";
@@ -30,7 +30,7 @@ export default function Navbar() {
         </ul>
 
         <Link href="/contact" className="btn btn-primary">
-          <FaTelegramPlane />
+          <BiLogoTelegram />
           Contact me
         </Link>
       </nav>
