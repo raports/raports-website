@@ -1,19 +1,33 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { BiLogoTelegram, BiRightArrowAlt } from "react-icons/bi";
 
 export default function Hero() {
   return (
-    <section className="flex items-center max-width flex-col-reverse desktop:flex-row">
+    <section className="flex items-center max-width flex-col-reverse desktop:flex-row mb-10">
       {/* left side */}
       <div className="desktop:mt-10 desktop:w-2/3">
         <div className="flex flex-col gap-4 items-center desktop:items-start max-w-2xl text-center desktop:text-left">
-          <h1 className="text-grey-700 text-5xl font-bold">BI developer</h1>
+          <h1 className="text-grey-700 text-5xl font-bold">Ramis Khasianov</h1>
           <p className="text-grey-600">
             Welcome! I'm Ramis, a seasoned Business Analyst with a passion for
             transforming raw data into actionable insights. From developing
             sleek analytical dashboards to architecting robust ETL pipelines, I
             thrive on transforming raw data into strategic assets.
           </p>
+        </div>
+
+        <div className="flex gap-5 mt-10 justify-center desktop:justify-start">
+          <Link href="/" className="btn btn-primary">
+            <BiLogoTelegram />
+            Contact me
+          </Link>
+
+          <Link href="/works" className="btn">
+            View porfolio
+            <BiRightArrowAlt />
+          </Link>
         </div>
       </div>
 
