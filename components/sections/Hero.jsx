@@ -5,7 +5,7 @@ import { BiLogoTelegram, BiRightArrowAlt } from "react-icons/bi";
 
 export default function Hero() {
   return (
-    <section className="flex items-center max-width flex-col-reverse desktop:flex-row mb-10">
+    <section className="section-padding max-width flex items-center flex-col-reverse desktop:flex-row mb-16">
       {/* left side */}
       <div className="desktop:mt-10 desktop:w-2/3">
         <div className="flex flex-col gap-4 items-center desktop:items-start max-w-2xl text-center desktop:text-left">
