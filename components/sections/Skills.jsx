@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Skills = () => {
   return (
-    <div>Skills</div>
-  )
-}
+    <section>
+      <SectionHeader title="My skills" subtitle="Technolgies i use in my work" />
+    </section>
+  );
+};
 
-export default Skills
+export default Skills;

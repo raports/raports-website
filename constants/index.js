@@ -60,3 +60,34 @@ export const aboutPoints = [
     description: "Mastering Python frameworks, I specialize in crafting dynamic applications and microservices using Django and FastAPI. On the front end, my expertise extends to React and Next.js, allowing me to seamlessly create full-stack applications that blend functionality with an exceptional user experience."
   }
 ];
+
+export const skills = [
+  {id: 1, title: "Power BI", level: 5.0, image: "/images/skills/powerbi.png"},
+  {id: 2, title: "Tableau", level: 4.5, image: "/images/skills/tableau.png"},
+  {id: 3, title: "Superset", level: 4.0, image: "/images/skills/superset.png"},
+  {id: 4, title: "Python", level: 4.5, image: "/images/skills/python.png"},
+  {id: 5, title: "Django", level: 4.0, image: "/images/skills/django.png"},
+  {id: 6, title: "FastAPI", level: 4.0, image: "/images/skills/fastapi.png"},
+  {id: 7, title: "React", level: 4.0, image: "/images/skills/react.png"},
+  {id: 8, title: "Next.js", level: 4.0, image: "/images/skills/nextjs.png"},
+  {id: 9, title: "Postgres", level: 4.5, image: "/images/skills/postgres.png"},
+  {id: 10, title: "SQL Server", level: 5.0, image: "/images/skills/sqlserver.png"},
+  {id: 11, title: "Clickhouse", level: 4.0, image: "/images/skills/clickhouse.png"},
+  {id: 12, title: "Greenplum", level: 3.5, image: "/images/skills/greenplum.png"},
+  {id: 13, title: "Airflow", level: 4.5, image: "/images/skills/airflow.png"},
+  {id: 14, title: "NiFi", level: 4.5, image: "/images/skills/nifi.png"},
+  {id: 15, title: "Spark", level: 3.5, image: "/images/skills/spark.png"},
+  {id: 16, title: "Docker", level: 4.5, image: "/images/skills/docker.png"},
+  {id: 17, title: "Kubernetes", level: 3.5, image: "/images/skills/kubernetes.png"},
+  {id: 18, title: "UX/UI", level: 4.5, image: "/images/skills/uxui.png"},
+  {id: 19, title: "Web Design", level: 4.5, image: "/images/skills/webdesign.png"},
+  {id: 20, title: "BPMN 2.0", level: 4.0, image: "/images/skills/bpmn.png"},
+  {id: 21, title: "HTML", level: 4.5, image: "/images/skills/html.png"},
+  {id: 22, title: "CSS", level: 4.0, image: "/images/skills/css.png"},
+  {id: 23, title: "Java Script", level: 4.0, image: "/images/skills/javascrip.png"},
+  {id: 24, title: "Kafka", level: 4.0, image: "/images/skills/kafka.png"},
+  {id: 25, title: "Figma", level: 4.0, image: "/images/skills/figma.png"},
+  {id: 26, title: "MongoDB", level: 4.0, image: "/images/skills/mongodb.png"},
+  {id: 27, title: "Git", level: 4.5, image: "/images/skills/git.png"},
+  {id: 28, title: "GraphQL", level: 4.5, image: "/images/skills/graphql.png"},
+]
