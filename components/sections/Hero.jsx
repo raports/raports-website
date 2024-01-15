@@ -5,14 +5,15 @@ export default function Hero() {
   return (
     <section className="flex items-center max-width flex-col-reverse desktop:flex-row">
       {/* left side */}
-      <div className="mt-10 desktop:w-2/3">
-        <h1>Bi developer</h1>
-        <p>Hire me pls</p>
-        <button>Contact me</button>
+      <div className="desktop:mt-10 desktop:w-2/3">
+        <div className="flex flex-col gap-4 items-center desktop:items-start max-w-2xl text-center desktop:text-left">
+          <h1 className="text-black text-5xl font-bold">BI developer</h1>
+          <p className="text-grey-600">Hire me pls</p>
+        </div>
       </div>
 
       {/* right side */}
-      <div className="flex-auto">
+      <div className="relative w-full mt-16 desktop:w-1/3 h-[600px] desktop:h-[700px]">
         <Image
           src="/images/hero.png"
           alt="hero"
