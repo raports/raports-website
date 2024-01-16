@@ -79,15 +79,11 @@ export const skills = [
   {id: 15, title: "Spark", level: 3.5, image: "/images/skills/spark.png"},
   {id: 16, title: "Docker", level: 4.5, image: "/images/skills/docker.png"},
   {id: 17, title: "Kubernetes", level: 3.5, image: "/images/skills/kubernetes.png"},
-  {id: 18, title: "UX/UI", level: 4.5, image: "/images/skills/uxui.png"},
-  {id: 19, title: "Web Design", level: 4.5, image: "/images/skills/webdesign.png"},
-  {id: 20, title: "BPMN 2.0", level: 4.0, image: "/images/skills/bpmn.png"},
   {id: 21, title: "HTML", level: 4.5, image: "/images/skills/html.png"},
   {id: 22, title: "CSS", level: 4.0, image: "/images/skills/css.png"},
-  {id: 23, title: "Java Script", level: 4.0, image: "/images/skills/javascrip.png"},
+  {id: 23, title: "Java Script", level: 4.0, image: "/images/skills/javascript.png"},
   {id: 24, title: "Kafka", level: 4.0, image: "/images/skills/kafka.png"},
   {id: 25, title: "Figma", level: 4.0, image: "/images/skills/figma.png"},
   {id: 26, title: "MongoDB", level: 4.0, image: "/images/skills/mongodb.png"},
-  {id: 27, title: "Git", level: 4.5, image: "/images/skills/git.png"},
-  {id: 28, title: "GraphQL", level: 4.5, image: "/images/skills/graphql.png"},
+  {id: 27, title: "Git", level: 4.5, image: "/images/skills/git.png"}
 ]

@@ -11,8 +11,8 @@ const Skills = () => {
         title="My skills"
         subtitle="Technolgies i use in my work"
       />
-      <div className="grid grid-cols-3 desktop:grid-cols-5 gap-3 desktop:gap-12 ">
-        {skills.slice(0, 3).map((skill, index) => (
+      <div className="grid grid-cols-3 desktop:grid-cols-6 gap-3 desktop:gap-12 ">
+        {skills.map((skill, index) => (
           <SkillCard key={index} {...skill} />
         ))}
       </div>
