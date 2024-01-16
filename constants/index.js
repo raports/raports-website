@@ -36,14 +36,14 @@ export const contactDetails = [
   {
     id: 2,
     icon: BiLogoTelegram,
-    text: "@raports",
+    text: "@ramis_raports",
   },
 ];
 
 export const aboutPoints = [
   {
     id: 1,
-    title: "BI Dashboards & Analytics",
+    title: "BI Analytics",
     image: "/images/aboutBi.png",
     description: "Crafting data-driven narratives is my forte. As a BI Analyst and Developer, I wield the power of Power BI, Tableau, and Superset to transform raw data into actionable insights. From dynamic dashboards that captivate to robust analytics solutions, I specialize in elevating businesses through the art of intelligent data visualization."
   },

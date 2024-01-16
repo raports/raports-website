@@ -19,7 +19,7 @@ export default function Hero() {
         </div>
 
         <div className="flex gap-5 mt-10 justify-center desktop:justify-start">
-          <Link href="/" className="btn btn-primary">
+          <Link href="https://t.me/ramis_raports" className="btn btn-primary">
             <BiLogoTelegram />
             Contact me
           </Link>
