@@ -18,7 +18,7 @@
 
 @layer utilities {
   .max-width {
-    @apply max-w-[1920px] mx-auto px-[16px] tablet:px-[40px] desktop:px-[80px];
+    @apply max-w-[1920px] mx-auto px-[20px] tablet:px-[60px] desktop:px-[160px];
   }
 
   .section-padding {
