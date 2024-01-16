@@ -13,6 +13,7 @@ module.exports = {
         desktop: "1024px",
       },
       colors: {
+        ulgrey: "#F5F8F9",
         white: "#ffffff",
         black: "#292F36",
         grey: {

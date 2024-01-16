@@ -10,7 +10,7 @@ const About = () => {
       <SectionHeader title="Areas of my expertise" subtitle="What can i help you with" />
       <div className="grid grid-cols-1 desktop:grid-cols-3 gap-3 desktop:gap-12 ">
         {aboutPoints.map((point, index) => (
-          <div key={index} className="p-8 tablet:p-12 rounded-lg flex flex-col items-center border border-solid border-grey-100">
+          <div key={index} className="p-8 tablet:p-12 rounded-lg flex flex-col items-center bg-white">
             <Image src={point.image} alt={point.title} width={200} height={200} />
             <h4 className="text-2xl font-semibold mb-3 text-center min-height-[60px]">{point.title}</h4>
             <p>{point.description}</p>
