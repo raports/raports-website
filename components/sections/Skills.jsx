@@ -9,7 +9,7 @@ const Skills = () => {
     <section className="max-width section-padding">
       <SectionHeader
         title="My skills"
-        subtitle="Technolgies i use in my work"
+        subtitle="Technologies i use in my work"
       />
       <div className="grid grid-cols-3 desktop:grid-cols-6 gap-3 desktop:gap-12 ">
         {skills.map((skill, index) => (
