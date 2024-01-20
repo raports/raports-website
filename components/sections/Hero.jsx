@@ -9,8 +9,8 @@ export default function Hero() {
       {/* left side */}
       <div className="desktop:mt-10 desktop:w-2/3">
         <div className="flex flex-col gap-4 items-center desktop:items-start max-w-2xl text-center desktop:text-left">
-          <h1 className="text-grey-700 text-5xl font-bold">Ramis Khasianov</h1>
-          <p className="text-grey-600">
+          <h1 data-aos="fade-down" className="text-grey-700 text-5xl font-bold" >Ramis Khasianov</h1>
+          <p  data-aos="fade-down" data-aos-delay="100" className="text-grey-600">
             Welcome! I'm Ramis, a seasoned Business Analyst with a passion for
             transforming raw data into actionable insights. From developing
             sleek analytical dashboards to architecting robust ETL pipelines, I
