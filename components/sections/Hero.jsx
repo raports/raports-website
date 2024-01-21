@@ -18,7 +18,7 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="flex gap-5 mt-10 justify-center desktop:justify-start">
+        <div className="flex gap-5 mt-10 justify-center desktop:justify-start" data-aos="fade-down" data-aos-delay="300">
           <Link href="https://t.me/ramis_raports" className="btn btn-primary">
             <BiLogoTelegram />
             Contact me
@@ -32,7 +32,7 @@ export default function Hero() {
       </div>
 
       {/* right side */}
-      <div className="relative w-full mt-16 desktop:w-1/3 h-[600px] desktop:h-[700px]">
+      <div className="relative w-full mt-16 desktop:w-1/3 h-[600px] desktop:h-[700px]" data-aos="fade-left" data-aos-delay="300">
         <Image
           src="/images/hero.png"
           alt="hero"
