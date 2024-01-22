@@ -11,9 +11,11 @@ const Skills = () => {
         title="My skills"
         subtitle="Technologies i use in my work"
       />
-      <div className="grid grid-cols-3 desktop:grid-cols-6 gap-3 desktop:gap-12 ">
+      <div className="grid grid-cols-2 tablet:grid-cols-4 desktop:grid-cols-6 gap-3 desktop:gap-12 ">
         {skills.map((skill, index) => (
-          <SkillCard key={index} {...skill} />
+          <div key={index} data-aos="fade-in" data-aos-delay="100">
+            <SkillCard {...skill} />
+          </div>
         ))}
       </div>
     </section>
