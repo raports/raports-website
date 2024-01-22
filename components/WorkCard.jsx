@@ -3,16 +3,18 @@ import Image from "next/image";
 
 const WorkCard = ({ title, image, description, url }) => {
   return (
-    <div>
-      <h1>{title}</h1>
-      <div className="relative h-[70px] w-[70px]">
+    <div className="flex flex-col items-center gap-4 bg-white rounded-xl p-8">
+      <h4 className="text-2xl font-semibold mb-5">{title}</h4>
+      <div className="relative w-full h-80 mb-5">
         <Image src={image} alt={title} fill className="object-cover" />
       </div>
 
-      <p>{description}</p>
-      <a className="btn btn-primary" src={url}>
-        View Project
-      </a>
+      <p className="text-grey-700 mb-4">{description}</p>
+      <div className="flex w-full justify-start">
+        <button className="btn btn-primary" src={url}>
+          View Project
+        </button>
+      </div>
     </div>
   );
 };

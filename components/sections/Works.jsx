@@ -34,7 +34,7 @@ const Works = () => {
             </button>
           </div>
         </div>
-        <div>
+        <div className="mt-8">
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
