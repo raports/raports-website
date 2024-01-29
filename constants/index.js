@@ -135,42 +135,10 @@ export const skills = [
 export const works = [
   {
     id: 1,
-    title: "Most populat skills report",
-    image: "/images/works/most_popular_skills.png",
+    title: "Flowers App Metrics",
+    image: "/images/works/flowersapp.png",
     description:
-      "This report shows the most popular skills for BI Developers and Data Engineers. It is based on the data from the Headhunter. The report is built in Power BI and is available for public",
-    url: "https://app.powerbi.com",
-  },
-  {
-    id: 2,
-    title: "Most populat skills report",
-    image: "/images/works/most_popular_skills.png",
-    description:
-      "This report shows the most popular skills for BI Developers and Data Engineers. It is based on the data from the Headhunter. The report is built in Power BI and is available for public",
-    url: "https://app.powerbi.com",
-  },
-  {
-    id: 3,
-    title: "Most populat skills report",
-    image: "/images/works/most_popular_skills.png",
-    description:
-      "This report shows the most popular skills for BI Developers and Data Engineers. It is based on the data from the Headhunter. The report is built in Power BI and is available for public",
-    url: "https://app.powerbi.com",
-  },
-  {
-    id: 4,
-    title: "Most populat skills report",
-    image: "/images/works/most_popular_skills.png",
-    description:
-      "This report shows the most popular skills for BI Developers and Data Engineers. It is based on the data from the Headhunter. The report is built in Power BI and is available for public",
-    url: "https://app.powerbi.com",
-  },
-  {
-    id: 5,
-    title: "Most populat skills report",
-    image: "/images/works/most_popular_skills.png",
-    description:
-      "This report shows the most popular skills for BI Developers and Data Engineers. It is based on the data from the Headhunter. The report is built in Power BI and is available for public",
-    url: "https://app.powerbi.com",
-  },
+      "Overview of imaginary Flower App Metrics - Traffic, Conversion, Cohort Analysis",
+    url: "https://public.tableau.com/views/FlowersAppMetrics/sheet15?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
+  }
 ];
