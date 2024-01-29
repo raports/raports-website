@@ -16,7 +16,7 @@ export default function Navbar() {
     <header className="flex items-center justify-between h-20 max-width border-b border-grey-100">
       {/* Logo */}
       <Link href="/" className="flex lg:flex-1">
-        <Image src="/logo.svg" alt="logo" width={120} height={40} />
+        <Image src="/logo.svg" alt="logo" width="120" height="40" priority={true} />
       </Link>
 
       <nav className="flex items-center justify-between gap-12 max-tablet:hidden">

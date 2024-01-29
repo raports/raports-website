@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="py-10 border-t border-grey-100 max-width">
       <div className="flex items-center justify-between">
         <Link href="/" className="flex">
-          <Image src="/logo.svg" alt="logo" width={120} height={40} />
+          <Image src="/logo.svg" alt="logo" width="120" height="40"  />
         </Link>
         <nav className="flex gap-12 max-tablet:hidden">
           {/* Nav links */}

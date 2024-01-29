@@ -37,7 +37,9 @@ export default function Hero() {
           src="/images/hero.png"
           alt="hero"
           fill
+          sizes="(max-width: 1440px) 33vw, 90vw"
           className="object-cover"
+          priority={false}
         />
       </div>
     </section>

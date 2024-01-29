@@ -30,7 +30,7 @@ const MobileMenu = () => {
       >
         <div className="flex items-center justify-between h-20 max-width border-b border-grey-100">
           <Link href="/" className="flex lg:flex-1">
-            <Image src="/logo.svg" alt="logo" width={120} height={40} />
+            <Image src="/logo.svg" alt="logo" width="120" height="40" />
           </Link>
           <button className="text-grey-700 " onClick={toggleMenu}>
             <BiX size={24} />
@@ -41,7 +41,11 @@ const MobileMenu = () => {
           <ul className="flex flex-col items-center">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavbarLink href={link.href} label={link.label} className={"text-2xl"} />
+                <NavbarLink
+                  href={link.href}
+                  label={link.label}
+                  className={"text-2xl"}
+                />
               </li>
             ))}
           </ul>
