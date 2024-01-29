@@ -53,10 +53,12 @@ const page = () => {
           title="Milestones of my career"
           subtitle="Companies i've worked for"
         />
-        <div>
+        <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:translate-x-px desktop:before:mx-auto
+        desktop:before:translate-x-0 before:h-full before:w-0.5 before:bg-blue before:bg-opacity-30"> 
           {timeline.map((item, index) => (
-            <div key={index} className="relative flex items-center justify-between desktop:justify-normal desktop:even:flex-row-reverse">
-              <div >
+            <div key={index} className="relative flex items-center justify-between desktop:justify-normal desktop:even:flex-row-reverse group">
+              <div className="flex items-center justify-center w-10 h-10 rounded-full bg-white shrink-0 desktop:order-1
+              desktop:group-even:-translate-x-1/2 desktop:group-odd:translate-x-1/2">
                 <span className="w-3 h-3 bg-blue rounded-full"></span>
               </div>
               <div className="bg-white p-5 tablet:p-8 rounded-lg w-[calc(100%-4rem)] desktop:w-[calc(50%-2.5rem)]">
