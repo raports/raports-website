@@ -132,6 +132,43 @@ export const skills = [
   { id: 27, title: "Git", level: 4.5, image: "/images/skills/git.png" },
 ];
 
+export const timeline = [
+  {
+    id: 1,
+    title: "Team Lead BI & Data services at Uralchem",
+    duration: "2020 - Present",
+    description:
+      "Building Enterprise DWH from ground up and providing all business units with centralized analytics and data services",
+  },
+  {
+    id: 2,
+    title: "Data Analyst at Renaissance Insurance",
+    duration: "2019 - 2020",
+    description: "Analysis of HR processes and reporting automation.",
+  },
+  {
+    id: 3,
+    title: "Data Analyst at Lamoda",
+    duration: "2016 - 2019",
+    description:
+      "Analysis of HR, Finance and Operations processes. Reporting automation project management",
+  },
+  {
+    id: 4,
+    title: "Junior Analyst at Yandex",
+    duration: "2016",
+    description:
+      "Compiling and preparing comprehensive reports for the Finance and HR departments",
+  },
+  {
+    id: 5,
+    title: "Degree in Applied Social Psychology at HSE",
+    duration: "2008 - 2014",
+    description:
+      "Studied designing and conducting surveys and experiments with emphasis on data processing and analysis of research findings.",
+  },
+];
+
 export const works = [
   {
     id: 1,
@@ -140,5 +177,5 @@ export const works = [
     description:
       "Overview of imaginary Flower App Metrics - Traffic, Conversion, Cohort Analysis",
     url: "https://public.tableau.com/views/FlowersAppMetrics/sheet15?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
-  }
+  },
 ];

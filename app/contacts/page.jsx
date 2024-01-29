@@ -33,8 +33,8 @@ const page = () => {
               </h6>
             </div>
             <div className="bg-white tablet:p-12 rounded-lg p-6">
-              <p className="text-grey-600">You can telegram me on</p>
-              <h6 className="text-grey-700 font-semibold">+1 234 56 768</h6>
+              <p className="text-grey-600">You can Telegram me on</p>
+              <h6 className="text-grey-700 font-semibold">@ramis_raports</h6>
             </div>
             <div className="bg-white tablet:p-12 rounded-lg p-6">
               <p className="text-grey-600">My current location</p>

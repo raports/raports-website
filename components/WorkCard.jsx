@@ -11,9 +11,9 @@ const WorkCard = ({ title, image, description, url }) => {
 
       <p className="text-grey-700 mb-4">{description}</p>
       <div className="flex w-full justify-start">
-        <button className="btn btn-primary" src={url}>
+        <a className="btn btn-primary cursor-pointer" href={url}>
           View Project
-        </button>
+        </a>
       </div>
     </div>
   );
