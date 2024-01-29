@@ -46,7 +46,7 @@ export const contactDetails = [
   },
 ];
 
-export const aboutPoints = [
+export const services = [
   {
     id: 1,
     title: "BI Analytics",

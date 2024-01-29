@@ -21,8 +21,8 @@ const renderStars = ({ rating }) => {
 
 const SkillCard = ({ title, level, image }) => {
   return (
-    <div className="flex flex-col items-center justify-center gap-2 bg-white rounded-full h-[180px] w-[180px]">
-      <div className="relative w-[60px] h-[60px]">
+    <div className="justify-self-center flex flex-col items-center justify-center gap-2 bg-white rounded-full h-[140px] w-[140px] desktop:h-[160px] desktop:w-[160px]">
+      <div className="relative w-[40px] h-[40px] desktop:w-[60px] desktop:h-[60px]">
         <Image src={image} alt={title} fill className="object-contain" />
       </div>
       <h4 className="font-semibold text-grey-600">{title}</h4>
