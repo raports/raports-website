@@ -10,7 +10,7 @@ module.exports = {
       screens: {
         mobile: "480px",
         tablet: "768px",
-        desktop: "1024px",
+        desktop: "1440px",
       },
       colors: {
         ulgrey: "#F5F8F9",
