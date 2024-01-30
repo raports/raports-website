@@ -13,14 +13,14 @@ const page = () => {
       <section className="max-width section-padding flex flex-col desktop:flex-row gap-20 items-center">
         <div className="relative w-full desktop:w-1/2 h-[calc(300px+20vw)] desktop:h-[600px]">
           <Image
-            src="/images/hero.png"
+            src="/images/aboutHero.jpg"
             alt="hero"
             fill
             className="object-cover"
           />
         </div>
         <div className="desktop:w-1/2">
-          <div>
+          <div className="space-y-3 max-tablet:text-center flex flex-col">
             <h1 className="text-gray-700 text-5xl font-bold mb-8">I'm Ramis</h1>
             <p className="text-grey-700">
               I am deeply passionate about the transformative power of data.
@@ -31,18 +31,18 @@ const page = () => {
               data to empower organizations and drive innovation.
             </p>
           </div>
-          <div className="w-full bg-white rounded-lg tablet:border-t-2 tablet:border-b-2 tablet:border-blue tablet:rounded-none tablet:bg-transparent flex flex-col tablet:flex-row gap-12  py-8 px-10 mt-14 tablet:mt-24">
-            <div className="flex items-center gap-10 justify-center tablet:block">
-              <h3 className="text-grey-700 text-3xl font-semibold">
+          <div className="w-full bg-white rounded-lg desktop:border-t-2 desktop:border-b-2 desktop:border-blue desktop:rounded-none desktop:bg-transparent flex flex-col desktop:flex-row gap-12  py-8 px-10 mt-14 desktop:mt-24">
+            <div className="flex items-center gap-10 justify-start desktop:justify-center desktop:block">
+              <h3 className="text-grey-700 text-3xl font-semibold text-nowrap min-w-[75px]">
                 9 <span className="text-blue">+</span>
               </h3>
               <p className="text-grey-600">Years of experience</p>
             </div>
-            <div className="flex items-center gap-10 justify-center tablet:block">
-              <h3 className="text-grey-700 text-3xl font-semibold">
+            <div className="flex items-center gap-10 justify-start desktop:justify-center desktop:block">
+              <h3 className="text-grey-700 text-3xl font-semibold text-nowrap min-w-[75px]">
                 200 <span className="text-blue">+</span>
               </h3>
-              <p className="text-grey-600">Dashboards and services developed</p>
+              <p className="text-grey-600 overflow-hidden">Dashboards and services developed</p>
             </div>
           </div>
         </div>
@@ -61,10 +61,10 @@ const page = () => {
               desktop:group-even:-translate-x-1/2 desktop:group-odd:translate-x-1/2">
                 <span className="w-3 h-3 bg-blue rounded-full"></span>
               </div>
-              <div className="bg-white p-5 tablet:p-8 rounded-lg w-[calc(100%-4rem)] desktop:w-[calc(50%-2.5rem)]">
+              <div className="bg-white p-5 desktop:p-8 rounded-lg w-[calc(100%-4rem)] desktop:w-[calc(50%-2.5rem)]">
                 <div className="flex items-center justify-between mb-1 space-x-2">
                   <h6 className="font-semibold text-grey-700">{item.title}</h6>
-                  <p className="font-semibold text-blue">{item.duration}</p>
+                  <p className="font-semibold text-blue text-nowrap ml-8">{item.duration}</p>
                 </div>
                 <div className="text-grey-600">{item.description}</div>
               </div>

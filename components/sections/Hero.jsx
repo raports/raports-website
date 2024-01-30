@@ -34,7 +34,7 @@ export default function Hero() {
       {/* right side */}
       <div className="relative w-full mt-16 desktop:w-1/3 h-[600px] desktop:h-[700px]" data-aos="fade-left" data-aos-delay="300">
         <Image
-          src="/images/hero.png"
+          src="/images/hero.jpg"
           alt="hero"
           fill
           sizes="(max-width: 1440px) 33vw, 90vw"
