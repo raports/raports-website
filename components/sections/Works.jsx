@@ -36,7 +36,7 @@ const Works = () => {
         </div>
         <div className="mt-8">
           <Swiper
-            slidesPerView={3}
+            slidesPerView={'auto'}
             spaceBetween={30}
             loop={true}
             onSwiper={(swiper) => {
