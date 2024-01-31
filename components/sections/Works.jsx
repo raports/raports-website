@@ -1,15 +1,29 @@
 "use client";
 
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { works } from "@/constants";
 import WorkCard from "@/components/WorkCard";
 import SectionHeader from "@/components/SectionHeader";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { useWindowSize } from "@/hooks/useWindowSize";
 
 const Works = () => {
   const swiperRef = useRef(null);
+  const [sliderPerView, setSliderPerView] = useState(3);
+
+  const { width } = useWindowSize();
+
+  useEffect(() => {
+    if(width < 1024) {
+      setSliderPerView(1);
+    } else if(width < 1268) {
+      setSliderPerView(2);
+    } else {
+      setSliderPerView(3);
+    }
+  }, [width]);
 
   return (
     <section className="max-width section-padding">
@@ -36,7 +50,7 @@ const Works = () => {
         </div>
         <div className="mt-8">
           <Swiper
-            slidesPerView={'auto'}
+            slidesPerView={sliderPerView}
             spaceBetween={30}
             loop={true}
             onSwiper={(swiper) => {

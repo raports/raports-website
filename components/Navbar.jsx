@@ -10,8 +10,6 @@ import NavbarLink from "@/components/NavbarLink";
 import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
-  const pathname = usePathname();
-  const [toggle, setToggle] = useState(false);
   return (
     <header className="flex items-center justify-between h-20 max-width border-b border-grey-100">
       {/* Logo */}

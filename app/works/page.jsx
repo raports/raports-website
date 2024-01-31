@@ -8,7 +8,7 @@ export default function WorksPage() {
     <main>
       <section className="max-width section-padding">
         <SectionHeader title="My works" subtitle="Get to know my style" />
-        <div className="grid grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 desktop:grid-cols-3 gap-12">
           {works.map((work, index) => (
             <WorkCard key={index} {...work} />
           ))}

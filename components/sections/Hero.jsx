@@ -37,7 +37,7 @@ export default function Hero() {
           src="/images/hero.jpg"
           alt="hero"
           fill
-          sizes="(max-width: 1440px) 33vw, 90vw"
+          sizes="100vw"
           className="object-cover"
           priority={false}
         />
