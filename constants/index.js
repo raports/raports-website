@@ -177,29 +177,5 @@ export const works = [
     description:
       "Overview of imaginary Flower App Metrics - Traffic, Conversion, Cohort Analysis",
     url: "https://public.tableau.com/views/FlowersAppMetrics/sheet15?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
-  },
-  {
-    id: 2,
-    title: "Skills of Data Specialist",
-    image: "/images/works/flowersapp.png",
-    description:
-      "Overview of imaginary Flower App Metrics - Traffic, Conversion, Cohort Analysis",
-    url: "https://public.tableau.com/views/FlowersAppMetrics/sheet15?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
-  },
-  {
-    id: 3,
-    title: "Air Quality",
-    image: "/images/works/flowersapp.png",
-    description:
-      "Overview of imaginary Flower App Metrics - Traffic, Conversion, Cohort Analysis",
-    url: "https://public.tableau.com/views/FlowersAppMetrics/sheet15?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
-  },
-  {
-    id: 4,
-    title: "Gas and Oil Prices",
-    image: "/images/works/flowersapp.png",
-    description:
-      "Overview of imaginary Flower App Metrics - Traffic, Conversion, Cohort Analysis",
-    url: "https://public.tableau.com/views/FlowersAppMetrics/sheet15?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
-  },
+  }
 ];
