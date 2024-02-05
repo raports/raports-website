@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { AOSIInit } from '@/components/Aos'
 import NextTopLoader from 'nextjs-toploader'
+import { Analytics } from '@vercel/analytics/react';
 
 const openSans = Open_Sans({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
