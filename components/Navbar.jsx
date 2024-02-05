@@ -27,7 +27,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <Link href="/contact" className="btn btn-primary">
+        <Link href="https://t.me/ramis_raports" className="btn btn-primary">
           <BiLogoTelegram />
           Contact me
         </Link>
