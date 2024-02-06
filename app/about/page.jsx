@@ -11,12 +11,12 @@ const page = () => {
   return (
     <main>
       <section className="max-width section-padding flex flex-col desktop:flex-row gap-20 items-center">
-        <div className="relative w-full desktop:w-1/2 h-[calc(300px+20vw)] desktop:h-[600px]">
+        <div className="relative w-full desktop:w-1/2 h-[calc(300px+20vw)] desktop:h-[800px]">
           <Image
             src="/images/aboutHero.jpg"
             alt="hero"
             fill
-            className="object-cover"
+            className="object-cover object-top"
           />
         </div>
         <div className="desktop:w-1/2">
