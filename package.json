@@ -12,10 +12,10 @@
     "@vercel/analytics": "^1.1.2",
     "@vercel/speed-insights": "^1.0.9",
     "aos": "^2.3.4",
-    "next": "14.0.4",
+    "next": "^15.3.4",
     "nextjs-toploader": "^1.6.4",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-icons": "^4.12.0",
     "swiper": "^11.0.5"
   },
