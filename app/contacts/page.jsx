@@ -50,7 +50,7 @@ const page = () => {
                 <a
                   key={index}
                   href={link.url}
-                  className="w-10 h-10 bg-blue text-peach flex items-center justify-center rounded"
+                  className="w-10 h-10 bg-blue text-peach flex items-center justify-center rounded-sm"
                 >
                   <link.icon size={24} fill="white" />
                 </a>

@@ -35,13 +35,13 @@ const Works = () => {
         <div className="pb-6 border-b border-grey-200 flex items-center justify-end">
           <div className="flex gap-2">
             <button
-              className="bg-white border border-grey p-1 rounded text-grey-700"
+              className="bg-white border border-grey p-1 rounded-sm text-grey-700"
               onClick={() => swiperRef.current?.slidePrev()}
             >
               <BiChevronLeft />
             </button>
             <button
-              className="bg-white border border-grey p-1 rounded text-grey-700"
+              className="bg-white border border-grey p-1 rounded-sm text-grey-700"
               onClick={() => swiperRef.current?.slideNext()}
             >
               <BiChevronRight />

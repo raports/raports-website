@@ -29,7 +29,7 @@ const Footer = () => {
             <a
               href={link.url}
               key={index}
-              className="w-8 h-8 text-blue flex items-center justify-center rounded"
+              className="w-8 h-8 text-blue flex items-center justify-center rounded-sm"
             >
               <link.icon size={24} />
             </a>

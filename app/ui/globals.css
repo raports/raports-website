@@ -1,22 +1,69 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
+@theme {
+  --breakpoint-mobile: 480px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1440px;
 
-@layer utilities {
-  .max-width {
-    @apply max-w-[1920px] mx-auto px-[20px] tablet:px-[60px] desktop:px-[160px];
+  --color-ulgrey: #f5f8f9;
+  --color-white: #ffffff;
+  --color-black: #292f36;
+
+  --color-grey-100: #d4d9dd;
+  --color-grey-200: #b8c0c7;
+  --color-grey-300: #9ba6b1;
+  --color-grey-400: #7e8d9a;
+  --color-grey-500: #657481;
+  --color-grey-600: #4e5a64;
+  --color-grey-700: #384047;
+  --color-grey: #6d7d8b;
+
+  --color-blue-500: #28aef0;
+  --color-blue-600: #0f94d7;
+  --color-blue-700: #0c73a7;
+  --color-blue: #0e87c3;
+
+  --color-green: #7fb685;
+  --color-yellow: #f3b270;
+  --color-red: #c20114;
+
+  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+  --background-image-gradient-conic: conic-gradient(
+    from 180deg at 50% 50%,
+    var(--tw-gradient-stops)
+  );
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
   }
+}
 
-  .section-padding {
-    @apply py-[30px] desktop:py-[60px];
-  }
+@utility max-width {
+  @apply max-w-[1920px] mx-auto px-[20px] tablet:px-[60px] desktop:px-[160px];
+}
 
-  .btn {
-    @apply flex items-center justify-center gap-2 rounded px-4 py-2 capitalize text-grey-700;
-  }
+@utility section-padding {
+  @apply py-[30px] desktop:py-[60px];
+}
 
-  .btn-primary {
-    @apply text-white bg-blue;
-  }
+@utility btn {
+  @apply flex items-center justify-center gap-2 rounded-sm px-4 py-2 capitalize text-grey-700;
+}
+
+@utility btn-primary {
+  @apply text-white bg-blue;
 }
