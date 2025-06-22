@@ -6,6 +6,7 @@ import { AOSIInit } from '@/components/Aos'
 import NextTopLoader from 'nextjs-toploader'
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import Script from 'next/script'
 
 const openSans = Open_Sans({ subsets: ["latin"] });
 
@@ -19,6 +20,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`bg-ulgrey ${openSans.className}`}>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZYCRQ3G7ZE"
+          strategy="beforeInteractive"
+        />
+        <Script id="google-analytics" strategy="beforeInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZYCRQ3G7ZE');
+          `}
+        </Script>
         <AOSIInit />
         <NextTopLoader color="#0E87C3" showSpinner={false} />
         <Navbar />
