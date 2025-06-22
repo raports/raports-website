@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { AOSIInit } from '@/components/Aos'
 import NextTopLoader from 'nextjs-toploader'
-import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from 'next/script'
 
@@ -37,7 +36,6 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />
-        <Analytics />
         <SpeedInsights />
       </body>
     </html>
