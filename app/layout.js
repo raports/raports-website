@@ -2,10 +2,10 @@ import { Open_Sans } from "next/font/google";
 import "@/app/ui/globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { AOSIInit } from '@/components/Aos'
-import NextTopLoader from 'nextjs-toploader'
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import Script from 'next/script'
+import { AOSIInit } from "@/components/Aos";
+import NextTopLoader from "nextjs-toploader";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import Script from "next/script";
 
 const openSans = Open_Sans({ subsets: ["latin"] });
 
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         />
         <Script id="google-analytics" strategy="beforeInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
+            window.dataLayer = window.dataLayer || []; 
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-ZYCRQ3G7ZE');
